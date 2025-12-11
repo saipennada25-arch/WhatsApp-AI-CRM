@@ -1,0 +1,76 @@
+╔══════════════════════════════════════════════════════════════════╗
+║           BAILEYS WHATSAPP BACKEND - QUICK START                 ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📋 FILES CREATED:
+   ✅ whatsapp.js          - Baileys client logic
+   ✅ server_baileys.js    - Express API server (port 5001)
+   ✅ README_BAILEYS.md    - Full documentation
+   ✅ TEST_BAILEYS.md      - Test commands
+   ✅ .gitignore           - Added auth_info/
+   ✅ package.json         - Added "baileys" script
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  PREREQUISITE: INSTALL GIT FIRST
+   Download: https://git-scm.com/download/win
+   Verify:   git --version
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 INSTALLATION:
+   cd backend
+   npm install @whiskeysockets/baileys --legacy-peer-deps
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 START SERVER:
+   npm run baileys
+
+   Expected: 🚀 Baileys WhatsApp Backend running on http://localhost:5001
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔌 API ENDPOINTS:
+
+   1. GET  /generate-qr
+      Returns: { "qr": "data:image/png;base64,..." }
+
+   2. GET  /messages
+      Returns: { "messages": [...] }
+
+   3. POST /send-message
+      Body: { "number": "919876543210", "message": "Hello" }
+      Returns: { "status": "sent" }
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧪 QUICK TEST (PowerShell):
+   Invoke-RestMethod -Uri http://localhost:5001/generate-qr
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 CONNECT WHATSAPP:
+   1. Call /generate-qr
+   2. Display QR in frontend: <img src="{qr}" />
+   3. Open WhatsApp app → Settings → Linked Devices
+   4. Scan QR code
+   5. ✅ Connected! Session saved in auth_info/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 FEATURES:
+   ✅ QR code as Base64 (no terminal printing)
+   ✅ Auto-reconnect on disconnect
+   ✅ Session persistence (auth_info/)
+   ✅ Incoming message storage
+   ✅ Send messages via API
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTATION:
+   - README_BAILEYS.md  → Full guide
+   - TEST_BAILEYS.md    → Test commands
+   - walkthrough.md     → Implementation details
+
+╚══════════════════════════════════════════════════════════════════╝

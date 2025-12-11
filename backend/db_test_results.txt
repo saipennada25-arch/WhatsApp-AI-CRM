@@ -1,0 +1,145 @@
+============================================================
+DATABASE CONNECTION TEST
+============================================================
+
+✅ DATABASE CONNECTED
+📦 Database: WhatsAppAICRM
+⏰ Server Time: Thu Dec 11 2025 10:20:54 GMT+0530 (India Standard Time)
+🔧 PostgreSQL Version: PostgreSQL 17.4 on aarch64-unknown-linux-gnu
+
+📊 Tables in database: 3
+   - contacts
+   - messages
+   - users
+
+📋 Users table structure:
+   - id (uuid) NOT NULL
+   - full_name (text) NOT NULL
+   - company_name (text) NOT NULL
+   - work_email (text) NOT NULL
+   - password_hash (text) NOT NULL
+   - created_at (timestamp without time zone) NULLABLE
+   - trial_start_date (timestamp without time zone) NULLABLE
+   - trial_end_date (timestamp without time zone) NULLABLE
+
+👥 Total users in database: 15
+
+📋 ALL USERS:
+------------------------------------------------------------
+
+1. John Smith
+   Email: john.smith.test.2025@example.com
+   Company: Acme Corp
+   Trial Start: Thu Dec 11 2025 10:15:17 GMT+0530 (India Standard Time)
+   Trial End: Thu Dec 25 2025 10:15:17 GMT+0530 (India Standard Time)
+   Created: Thu Dec 11 2025 04:45:23 GMT+0530 (India Standard Time)
+   Status: ✅ Trial Active (14 days left)
+
+2. Unique User
+   Email: uniqueuser824714922@example.com
+   Company: Test Corp
+   Trial Start: Thu Dec 11 2025 10:14:29 GMT+0530 (India Standard Time)
+   Trial End: Thu Dec 25 2025 10:14:29 GMT+0530 (India Standard Time)
+   Created: Thu Dec 11 2025 04:44:30 GMT+0530 (India Standard Time)
+   Status: ✅ Trial Active (14 days left)
+
+3. sai
+   Email: saipennada2@gmail.com
+   Company: pennada
+   Trial Start: Thu Dec 11 2025 08:50:35 GMT+0530 (India Standard Time)
+   Trial End: Thu Dec 25 2025 08:50:35 GMT+0530 (India Standard Time)
+   Created: Thu Dec 11 2025 03:20:35 GMT+0530 (India Standard Time)
+   Status: ✅ Trial Active (14 days left)
+
+4. pennada madhu veera satya sai baba
+   Email: saipennada25@gmail.com
+   Company: ss
+   Trial Start: Thu Dec 11 2025 08:39:09 GMT+0530 (India Standard Time)
+   Trial End: Thu Dec 25 2025 08:39:09 GMT+0530 (India Standard Time)
+   Created: Thu Dec 11 2025 03:09:09 GMT+0530 (India Standard Time)
+   Status: ✅ Trial Active (14 days left)
+
+5. Test User
+   Email: test1765422483065@example.com
+   Company: Test Corp
+   Trial Start: Thu Dec 11 2025 08:38:03 GMT+0530 (India Standard Time)
+   Trial End: Thu Dec 25 2025 08:38:03 GMT+0530 (India Standard Time)
+   Created: Thu Dec 11 2025 03:08:03 GMT+0530 (India Standard Time)
+   Status: ✅ Trial Active (14 days left)
+
+6. Test User
+   Email: test1765422474283@example.com
+   Company: Test Corp
+   Trial Start: Thu Dec 11 2025 08:37:54 GMT+0530 (India Standard Time)
+   Trial End: Thu Dec 25 2025 08:37:54 GMT+0530 (India Standard Time)
+   Created: Thu Dec 11 2025 03:07:54 GMT+0530 (India Standard Time)
+   Status: ✅ Trial Active (14 days left)
+
+7. Test User
+   Email: test1765421886094@example.com
+   Company: Test Corp
+   Trial Start: Thu Dec 11 2025 08:28:06 GMT+0530 (India Standard Time)
+   Trial End: Thu Dec 25 2025 08:28:06 GMT+0530 (India Standard Time)
+   Created: Thu Dec 11 2025 02:58:06 GMT+0530 (India Standard Time)
+   Status: ✅ Trial Active (14 days left)
+
+8. Test User
+   Email: test1765421873846@example.com
+   Company: Test Corp
+   Trial Start: Thu Dec 11 2025 08:27:53 GMT+0530 (India Standard Time)
+   Trial End: Thu Dec 25 2025 08:27:53 GMT+0530 (India Standard Time)
+   Created: Thu Dec 11 2025 02:57:54 GMT+0530 (India Standard Time)
+   Status: ✅ Trial Active (14 days left)
+
+9. Test User
+   Email: test1765379086038@example.com
+   Company: Test Corp
+   Trial Start: Not set
+   Trial End: Not set
+   Created: Wed Dec 10 2025 15:04:46 GMT+0530 (India Standard Time)
+
+10. Test User
+   Email: test1765379041014@example.com
+   Company: Test Corp
+   Trial Start: Not set
+   Trial End: Not set
+   Created: Wed Dec 10 2025 15:04:01 GMT+0530 (India Standard Time)
+
+11. Test User
+   Email: test1765378872859@example.com
+   Company: Test Corp
+   Trial Start: Not set
+   Trial End: Not set
+   Created: Wed Dec 10 2025 15:01:23 GMT+0530 (India Standard Time)
+
+12. Test User
+   Email: test1765378742359@example.com
+   Company: Test Corp
+   Trial Start: Not set
+   Trial End: Not set
+   Created: Wed Dec 10 2025 14:59:13 GMT+0530 (India Standard Time)
+
+13. Test User
+   Email: test1765378699230@example.com
+   Company: Test Corp
+   Trial Start: Not set
+   Trial End: Not set
+   Created: Wed Dec 10 2025 14:58:19 GMT+0530 (India Standard Time)
+
+14. Test User
+   Email: test1765378547052@example.com
+   Company: Test Corp
+   Trial Start: Not set
+   Trial End: Not set
+   Created: Wed Dec 10 2025 14:55:48 GMT+0530 (India Standard Time)
+
+15. Test User
+   Email: test1765378505127@example.com
+   Company: Test Corp
+   Trial Start: Not set
+   Trial End: Not set
+   Created: Wed Dec 10 2025 14:55:05 GMT+0530 (India Standard Time)
+
+============================================================
+✅ ALL TESTS PASSED
+============================================================
